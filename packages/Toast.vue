@@ -7,7 +7,7 @@
     ref="toastRef"
     data-sonner-toast=""
     :class="toastClass"
-    :data-styled="!isTitleComponent"
+    :data-styled="true"
     :data-mounted="mounted"
     :data-promise="Boolean(toast.promise)"
     :data-removed="removed"
